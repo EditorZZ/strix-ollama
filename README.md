@@ -1,3 +1,7 @@
+> **Ollama-Erweiterung:** ENV-Vorlagen für lokale Modelle und Ollama Cloud,
+> fertige JSON-Profile und ein Verbindungstest: [Ollama-Startanleitung](OLLAMA-START.md).
+> Basiert auf [usestrix/strix](https://github.com/usestrix/strix) unter Apache-2.0.
+
 <p align="center">
   <a href="https://strix.ai/">
     <img src="https://github.com/usestrix/.github/raw/main/imgs/cover.png" alt="Strix Banner" width="100%">

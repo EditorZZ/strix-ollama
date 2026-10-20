@@ -33,6 +33,8 @@ venv/
 env/
 ENV/
 .env
+.env.*
+!.env.*.example
 .venv
 pip-log.txt
 pip-delete-this-directory.txt

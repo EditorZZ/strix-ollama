@@ -1,0 +1,23 @@
+{
+  "env": {
+    "STRIX_LLM": "ollama/huihui_ai/qwen3-abliterated:latest",
+    "LLM_API_BASE": "http://127.0.0.1:11434",
+    "LLM_EXTRA_BODY": {
+      "think": false,
+      "options": {
+        "num_ctx": 40960,
+        "temperature": 0.2
+      }
+    },
+    "STRIX_REASONING_EFFORT": "none",
+    "STRIX_CONTEXT_FALLBACK_TOKENS": 40960,
+    "STRIX_CONTEXT_BUFFER_TOKENS": 8192,
+    "STRIX_CONTEXT_KEEP_TOKENS": 4096,
+    "STRIX_CONTEXT_SUMMARY_TOKENS": 2048,
+    "STRIX_TOOL_OUTPUT_MAX_TOKENS": 4096,
+    "LLM_PREFLIGHT_TIMEOUT": 180,
+    "LLM_STREAM_FIRST_EVENT_TIMEOUT": 300,
+    "STRIX_TELEMETRY": false,
+    "STRIX_MAX_CONTEXT_IMAGES": 0
+  }
+}
